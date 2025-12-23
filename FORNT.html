@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /* selectors */
+      /* class based selectors [multiple] */
+      .child {
+        width: 130px;
+        height: 130px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        border: none;
+      }
+      /*id based selector*/
+      #parent {
+        border: 1px solid green;
+        display: flex;
+        justify-content: center;
+      }
+      #heading {
+        color: red;
+      }
+
+      /*tag based selector*/
+      nav {
+        border: 1px solid red;
+        padding: 10px 20px;
+        background-color: black;
+        display: flex;
+        gap: 30px;
+        justify-content: start;
+      }
+
+      /*descendant selector*/
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+      }
+
+      /*direct selector*/
+      /*nav > a {
+        color: white;
+        text-decoration: none;
+      }*/
+
+      .bg-red {
+        background-color: rgb(0, 115, 161);
+      }
+
+      .text-white {
+        color: rgb(255, 181, 234);
+      }
+    </style>
+
+</head>
+<>
+ <nav>
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
+      <a href="">Services</a>
+    </nav>
+
+</p>
+    Havana is the capital city of Cuba and is known for its rich history, vibrant culture, and colorful streets. The city features beautiful Spanish colonial architecture, especially in Old Havana, a UNESCO World Heritage Site with cobblestone streets and historic plazas. Classic cars from the 1950s, lively music, and street art give Havana a unique and energetic atmosphere. The Malecón, a famous seaside boulevard, is a popular gathering place where people enjoy ocean views and sunsets. Havana reflects Cuba’s cultural pride through its music, dance, food, and strong sense of community.
+
+    </p>
+
+    <!-- Inline CSS -->
+    <h1 id="heading">cuba (havana)</h1>
+    <div id="parent">
+      <div class="child bg-red text-white">"Christopher Columbus arrives in Cuba – 1492"</div>
+      <div class="child bg-red text-white">"Ten Years’ War (Cuba’s first war for independence from Spain) – 1868–1878"</div>
+      <div class="child bg-red text-white">"Cuban War of Independence – 1895–1898"</div>
+      <div class="child bg-red text-white">"Cuban Revolution (led by Fidel Castro) – 1953–1959"</div>
+    </div>
+   
+</body>
+</html>
