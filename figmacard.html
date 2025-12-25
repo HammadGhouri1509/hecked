@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Roboto Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .roboto-medium {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+        .roboto-regular {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+    </style>
+
+
+
+    <style>
+        * {
+
+            margin: 0px;
+        }
+
+        #card {
+            width: 360px;
+            height: 120px;
+            border-radius: 20px;
+            background-color: white;
+            display: flex;
+            overflow: hidden;
+        }
+
+        #card img {
+            width: 107px;
+        }
+
+        #right {
+            width: 100%;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        body {
+            border: 1px solid red;
+            height: 100vh;
+            background-color: #BACAD9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #right h1 {
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }
+
+        #right p {
+            font-size: 16px;
+            line-height: 25.5px;
+            letter-spacing: 0.5px;
+            color: #78858F;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='card'>
+        <img src="Avatar.png" alt="">
+        <div id="right">
+            <h1 class="roboto-medium">Julia Robert</h1>
+            <p class="roboto-regular">frontend development</p>
+        </div>
+    </div>
+</body>
+
+</html>
