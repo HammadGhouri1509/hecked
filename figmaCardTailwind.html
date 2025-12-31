@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CDN Link for Tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Roboto Font CDN Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Roboto Font Selectors -->
+    <style>
+        .roboto-regular {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+        .roboto-medium {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="w-[360px] h-[573px] rounded-[20px] border">
+        
+        <!-- header -->
+        <div class="h-[110px] border border-2 border-[red] p-[25px] flex gap-[10px] items-center">
+            <img class="h-full" src="images/avatar.png" alt="">
+            <div class="">
+                <h1 class="roboto-medium text-[20px] leading-[100%] tracking-[0%]">Guy Hawkins</h1>
+                <span class="roboto-regular text-[15px] text-[#78858F] leading-[25.5px] tracking-[0.5px]">Project
+                    Manager</span>
+            </div>
+            <img class=" ml-auto" src="images/media-option.svg" alt="">
+        </div>
+        
+        <!-- images -->
+        <div class="h-[380px] border border-2 grid grid-cols-2 gap-[5px] border-[green]">
+            <img src="images/unsplash_N8UG_AQcui0.png" alt="">
+            <img src="images/unsplash_yjXlyrKIz2A.png" alt="">
+            <img src="images/unsplash_Yod824b0KDA.png" alt="">
+            <img src="images/unsplash_YSq8vQsIMoE.png" alt="">
+        </div>
+        
+        <!-- body -->
+        <div class="h-[83px] border border-2 border-[blue]">
+            <button class="w-[91px] py-[5px] px-[15px] text-white bg-[black] rounded-[4px] text-[13px]">Buy Now</button>
+        </div>
+    </div>
+</body>
+
+</html>
